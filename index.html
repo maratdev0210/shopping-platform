@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shopping Platform</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <!-- TO-DO -->
+        <!-- 
+            1. Project description: create a webpage that would look like shopping platfrom, where users can choose between different 
+            piece of clothing
+            2. The sctructure of the clothing is simple: outline each of the clothing items in the gallery-like view
+            3. each clothing-section will have the following:
+                1. the image of the clothing
+                2. the category to which this piece of clothing belongs to
+                3. the price tag for each of the clothing item
+                4. which gender can wear this clothing piece
+                5. the "add to cart" button
+            4. navigation tab will include the following:
+                1. name of the shopping plaftorm (logo)
+                2. the home button
+                3. the about us section
+                4. the shopping cart
+                5. checkout section
+        -->
+        <!-- navigation -->
+        <div class="navigation-header">
+            <nav>
+                <ul class="logo">
+                    <li><a href="index.html">Shopping Platform</a></li>
+                </ul>
+                <ul class="main-section">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                </ul>
+                <ul class="checkout-section">
+                    <li><a href="index.html"><img class="shopping-cart image" src="images/shopping-bag (1).png"></a></li>
+                    <li><a href="index.html"><img class="checkout image" src="images/checkout.png"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="intro-section">
+            <div class="intro-text">
+                <p>Check out our new clothing items, that have been recently added by our team of top-notch designers
+                    and manufacturers. Explore among 100+ items both dedicated as for men and women. In our collection you will find
+                    everything from socks to caps at the reasonable price among the market.
+                </p>
+            </div>
+            <div class="image-holder">
+                <img clsas="image" src="./images/top-view-composition-different-traveling-elements.jpg">
+            </div>
+        </div>
+        <!-- sidebar navigation -->
+        <div class="content">
+            <div class="sidebar-navigation">
+                <nav>
+                    <ul>
+                        <li class="filter">Filter &rarr;</li>
+                        <li class="men">Men's Collection &rarr;</li>
+                        <li class="women">Women's Collection &rarr;</li>
+                        <li class="fall">Fall wardrobe &rarr;</li>
+                        <li class="summer">Summer Outfits &rarr;</li>
+                        <li class="winter">Winter Style &rarr;</li>
+                        <li class="spring">Spring fashion &rarr;</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clothes">
+                <!-- represents each clothing item-->
+                <div class="clothes-items">
+                    <!-- structure:
+                        1. image of an item
+                        2. name of the item
+                        3. add to cart button
+                        4. price 
+                    -->
+                    <img class="image" src="images/THE ESSENTIAL TEE - WHITE by Crystos New York __ tshirt product photography.jpg">
+                    <div class="clothes-info">
+                        <span class="name">The Essential white tee</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Men Cotton Cuffed Sleeve Tee.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Men Cotton Cuffed Sleeve</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/10 Blank T-Shirt Template Designs with Portrait Mode - 01 - Men Short-Sleeved T-Shirts - Black - Allpicts.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Blank T-Shirt</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Mens Smile Chest Print O-Neck Casual Loose Short Sleeve T-Shirt.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Smile Chest Print t-shirt</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Eventura Shirt Apricot-M.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Eventura Shirt Apricot</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Men Solid Round Neck Tee.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Men Solid Round Neck</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Mens Embroidery Tricolor Vines Knitted Texture Short Sleeve T-Shirts.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Men Embroidery Tricolor</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Zero Ping _ 3-Style T-Shirt - Basic _ White _ XL.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Navy Blue T-Shirt XL</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Men's Wrinkle-Free Double L® Chinos, Natural Fit, Hidden Comfort, Plain Front, Cotton.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Men's Chinos L</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Men's Wrinkle-Free Double L® Chinos, Classic Fit, Plain Front, Cotton.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Men's Chinos L Classic</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/The Frankie Shop - Maesa Pleated Woven Wide-leg Cargo Pants - Black - medium.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Men's Pants old Money</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+                <div class="clothes-items">
+                    <img class="image" src="images/Piece Of White Fashion Collections For Women _ Moda Operandi.jpg">
+                    <div class="clothes-info">
+                        <span class="name">Women's white pants</span>
+                        <span class="price">9.99$</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <a href="index.html"><img class="shopping-cart image" src="images/shopping-cart.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <ul class="logo-footer">
+                    <li><a href="index.html">Shopping Platform</a></li>
+                    <span class="copyright">Copyright &copy;2023 by Marat Musagitov</span>
+                </ul>
+                <ul class="main-section-footer">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                </ul>
+                <div class="address">
+                    <li><span class="contact">Contact Us</span></li>
+                    <address>
+                        <a href="mailto:maratforwork1@gmail.com">maratforwork1@gmail.com</a>
+                        <a href="tel:+77777777777">+7 777 777 77-77</a>
+                    </address>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
